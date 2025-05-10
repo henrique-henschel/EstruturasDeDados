@@ -10,7 +10,8 @@ int main(void) {
 	inicializarTabela(tabela, TAM);
 	
 	do {
-		printf("\n0 - Sair\n1 - Inserir\n2 - Buscar\n3 - Imprimir\n\n--> Digite a opcao desejada: ");
+		printf("\n0 - Sair\n1 - Inserir\n2 - Buscar\n3 - Imprimir\n");
+		printf("\n--> Digite a opcao desejada: ");
 		scanf("%d", &opcao);
 		getchar();
 		
